@@ -7,17 +7,23 @@ div {
     margin: 50px 0px;
 }
 body{
-    background-color:black;
+    background: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1459525/580/386/m1/fpnw/wm0/set-of-memphis-seamless-patterns-prw-3-.jpg?1468762287&s=acfc262d463cd53088e59ed60ad4b07e");
 }
 h1{
-    color:white;
+    color:black;
+    background-color:gray;
+    border:5px dotted white;
 }
 .picture{
-    border:20px groove white;
+    border:20px groove gray;
 }
 #bunny{
-    border:20px groove white;
+    border:20px groove gray;
 }
 img{
-    border:20px groove white;
+    border:20px groove gray;
+}
+button{
+    background-color:gray;
+    color:white;
 }
