@@ -1,6 +1,6 @@
 //Spell #1
 
-$(".button").click(function(){
+$(".button").hover(function(){
     $(".picture").fadeToggle();
  
 });
@@ -9,7 +9,7 @@ $(".button").click(function(){
 
 //Spell #2
 
-$("#hat").click(function(){
+$("#hat").mouseenter(function(){
     $("#bunny").slideToggle();
  
 });
@@ -18,9 +18,20 @@ $("#hat").click(function(){
 
 //Spell #3
 
-$(".stop").click(function(){
+$(".stop").dblclick(function(){
     $(".netflix").toggle();
  
+});
+
+$(".kitten").click(function(){
+    $(".cat").hide();
+    
+});
+$(".color").mouseleave(function(){
+    $(".fun").fadeOut();
+});
+$("#reset").click(function(){
+    $("img").show();
 });
 
 
