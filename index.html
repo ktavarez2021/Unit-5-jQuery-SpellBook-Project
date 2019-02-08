@@ -34,6 +34,7 @@ button{
     <body>
         <div class="header">
             <h1>Keyly's Magic Spellbook</h1>
+            <button class="dot">Change the title</button>
         </div>
         <div class="spellOne">
             <img class="picture" src="http://www.howtocleanstuff.net/wp-content/uploads/Playing-Cards.jpg">
@@ -116,5 +117,6 @@ $("#change").click(function(){
     $("body").css("background", 'url("https://cdn.shopify.com/s/files/1/2469/7243/products/0604-08-lisbon-pattern-patternlook-seamless-pattern-designs-for-the-fashion-and-lifestyle-industry-explore-and-buy-hundreds-of-royalty-free-stock-seamless-repeat-prints-surface-pattern-designer_1024x1024.jpg?v=1520553930")');
 });
 
-
-</script></body></html>
+$(".dot").click(function(){
+    $("h1").text("Congratulations!");
+});</script></body></html>
